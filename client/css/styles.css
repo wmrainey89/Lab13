@@ -1,0 +1,42 @@
+#tweet{
+    padding: 0 10px;
+    /*border-style: dotted;*/
+    border-radius: 10px;
+    background-color: #DB3DD1;
+    margin-bottom: 9px;
+    color: #ffffff;
+    max-width: 250px;
+}
+
+#typer{
+    background: #e9967a;
+    color: aquamarine;
+    border-radius: 5px;
+    margin-left: 20.5em;
+}
+
+#hey{
+    margin-left: 8em;
+}
+
+#howdy{
+    margin-left: 8em;
+}
+
+#click{
+    border-radius: 6px;
+    background-color: #DB3DD1;
+    color: aliceblue;
+    margin-bottom: 4em;
+}
+
+#names{
+    padding-right: 30px;
+    padding-left: 7px;
+    
+}
+
+#user{
+    padding-left: 7px;
+    padding-right: 30px;
+}

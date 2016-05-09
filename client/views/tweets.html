@@ -1,1 +1,21 @@
-<h1>Hello World 2!</h1>
+<h1 id="howdy">Hello World 2!</h1>
+
+<div id="tweets" ng-init="vm.init()">
+<textarea id="typer" cols="30" rows="5" ng-model="vm.userTweet.text"></textarea>
+<button id="click" type="button" ng-click="vm.postTweet()">Tweet it Homey</button>
+<table>
+    <thead>
+        <tr>
+            <th id="names">User</th>
+            <th>Tweet</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="tweet in vm.tweets">
+            <td id="user">{{tweet.user}}:</td>
+            <td id="tweet">{{tweet.text}}</td>
+        </tr>
+    </tbody>
+    </table>
+</div>
+
